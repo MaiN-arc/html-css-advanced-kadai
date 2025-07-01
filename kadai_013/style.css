@@ -82,6 +82,8 @@ PC用のスタイル
   #menu-sp {
     float: right;
     padding: 0;
+    border: none;
+    background-color: transparent;
   }
 
   #nav-sp {
@@ -124,7 +126,7 @@ PC用のスタイル
     color: #ffffff;
   }
 
-  #nav-sp a:hover {
+  #nav-sp a.menu:hover {
     color: #ffffff;
     text-decoration: underline;
   }
