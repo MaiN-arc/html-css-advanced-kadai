@@ -100,6 +100,12 @@ PC用のスタイル
   #nav-sp ul {
     padding-left: 0;
   }
+
+  #close {
+    border: none;
+    background-color: transparent;
+  }
+
   #nav-sp li {
     list-style: none;
   }
