@@ -20,15 +20,15 @@
         <a href="index.html#contact">CONTACT</a>
       </nav>
       <!-- sp用メニューボタン -->
-      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+      <div id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'" style="cursor: pointer;">
         <img src="images/button-menu.png" alt="ナビゲーションを開く">
-      </button>
+      </div>
       <!-- sp用のナビゲーション -->
       
-       <div id="nav-sp">
-        <button id="close" onclick="document.getElementById('nav-sp').style.display='none'">
+       <div id="nav-sp" style="display: none;"  >
+        <div id="close" onclick="document.getElementById('nav-sp').style.display='none'" style="cursor: pointer;" >
           <img src="images/button-close.png" alt="ナビゲーションをとじる" >
-        </button>
+        </div>
         <nav>
           <ul>
             <li>
@@ -42,7 +42,7 @@
               <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display='none' ">PRODUCT</a>
             </li>
             <li>
-              <a class="menu" href="index.html#contct" onclick="document.getElementById('nav-sp').style.display='none' ">CONTACT</a>
+              <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display='none' ">CONTACT</a>
             </li>
           </ul>
         </nav>
